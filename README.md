@@ -4,6 +4,12 @@
 O **Portal dos Oceanos** é uma aplicação web desenvolvida como parte da disciplina de **Programação Web Front-End**. Este projeto tem como objetivo conscientizar sobre a importância da preservação dos oceanos, promovendo práticas sustentáveis e destacando os desafios relacionados à **ODS 14** (Objetivo de Desenvolvimento Sustentável 14) da ONU.
 
 ---
+## **Alunos**
+   Pedro Henrique da Rocha         R.A.: 2346575
+   
+   Stefano Calheiros Stringhini    R.A.: 2312123 
+   
+   Victor Ribeiro Calado           R.A.: 2313553
 
 ## **Funcionalidades**  
 1. **Página Principal**:  
@@ -23,7 +29,7 @@ O **Portal dos Oceanos** é uma aplicação web desenvolvida como parte da disci
 ---
 
 ## **Como Visualizar o Projeto**  
-O projeto está publicado no **GitHub Pages** e pode ser acessado [aqui](https://rochautfpr.github.io/EC47C-front-end/).
+O projeto está publicado no **GitHub Pages** e pode ser acessado [aqui](https://noghiros.github.io/Projeto-1-Programacao-Web-Front-End/).
 
 ---
 
