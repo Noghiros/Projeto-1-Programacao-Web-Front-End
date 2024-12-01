@@ -12,8 +12,6 @@ body {
     justify-content: space-between;
 }
 
-
-/* Header */
 header {
     padding: 20px 50px;
     background-color: #0077b6;
@@ -124,10 +122,9 @@ button:hover {
     background-color: #023e8a;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 119, 182, 0.8); /* Fundo azul transparente */
+    background-color: rgba(0, 119, 182, 0.8); 
     color: white;
 }
