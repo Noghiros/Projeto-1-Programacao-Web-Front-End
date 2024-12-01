@@ -112,6 +112,11 @@ header nav ul li a:hover {
     color: #01507a;
 }
 
+.section-tips-description a{
+   text-decoration: none;
+   color: #01507a;
+}
+
 .section-tips-description h3 {
     font-size: 40px;
 }
@@ -154,6 +159,11 @@ header nav ul li a:hover {
 
 .section-on-ods-14-description {
     width: 50%;
+}
+
+.section-on-ods-14-description a {
+    text-decoration: none;
+    color: white;
 }
 
 .section-on-ods-14-description h2 {
@@ -379,6 +389,11 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.section-goals a{
+    text-decoration: none;
+    color: white
 }
 
 .section-goals > div {
