@@ -29,7 +29,7 @@ O **Portal dos Oceanos** é uma aplicação web desenvolvida como parte da disci
 ---
 
 ## **Como Visualizar o Projeto**  
-O projeto está publicado no **GitHub Pages** e pode ser acessado [aqui]([https://rochautfpr.github.io/EC47C-front-end/](https://noghiros.github.io/Projeto-1-Programacao-Web-Front-End/)).
+O projeto está publicado no **GitHub Pages** e pode ser acessado [aqui](https://rochautfpr.github.io/EC47C-front-end/](https://noghiros.github.io/Projeto-1-Programacao-Web-Front-End/)).
 
 ---
 
