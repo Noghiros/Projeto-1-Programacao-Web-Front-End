@@ -1,6 +1,6 @@
 # Projeto 1 - Programação Web Front-End  
 
-### **Portal dos Oceanos**  
+### 🌊 **Portal dos Oceanos**  
 O **Portal dos Oceanos** é uma aplicação web desenvolvida como parte da disciplina de **Programação Web Front-End**. Este projeto tem como objetivo conscientizar sobre a importância da preservação dos oceanos, promovendo práticas sustentáveis e destacando os desafios relacionados à **ODS 14** (Objetivo de Desenvolvimento Sustentável 14) da ONU.
 
 ---
