@@ -1,33 +1,20 @@
 /* Estilização geral */
 body {
-    margin: 0;
+    margin: 0px;
     font-family: "Roboto", sans-serif;
     background-image: url(ocean.jpg);
+    min-height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* Opacidade ao fundo */
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
-}
 
 /* Header */
 header {
-    position: absolute;
-    top: 0;
-    width: 100%;
     padding: 20px 50px;
     background-color: #0077b6;
     color: white;
@@ -38,9 +25,9 @@ header {
 }
 
 header h1 {
-   font-size: 2rem; /* Tamanho do título */
-    font-weight: bold; /* Negrito */
-    margin: 0; /* Remove margens */
+   font-size: 2rem; 
+    font-weight: bold; 
+    margin: 0; 
 }
 
 header nav ul {
@@ -63,7 +50,16 @@ header nav ul li a:hover {
     color: #caf0f8;
 }
 
+
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+main section {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
@@ -72,6 +68,7 @@ main {
     width: 100%;
     max-width: 400px;
 }
+
 
 main h2 {
     margin-bottom: 20px;
@@ -129,9 +126,6 @@ button:hover {
 
 /* Footer */
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 119, 182, 0.8); /* Fundo azul transparente */
