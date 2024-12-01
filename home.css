@@ -78,7 +78,7 @@ header nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../src/ocean.jpg);
+    background-image: url(ocean.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ header nav ul li a:hover {
     position: relative;
     width: 400px;
     height: 300px;
-    background-image: url(../src/plastic.jpg);
+    background-image: url(plastic.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ header nav ul li a:hover {
     position: relative;
     width: 400px;
     height: 300px;
-    background-image: url(../src/coral-bleaching.jpg);
+    background-image: url(coral-bleaching.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -320,7 +320,7 @@ header nav ul li a:hover {
     position: relative;
     width: 400px;
     height: 300px;
-    background-image: url(../src/predatory-fishing.jpg);
+    background-image: url(predatory-fishing.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
