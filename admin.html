@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Portal dos Oceanos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Oceanos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cadastro de Usuários</h2>
+        <form id="userForm">
+            <label for="username">Nome do Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Cadastrar</button>
+            <button type="button" id="clearFields">Limpar Campos</button>
+        </form>
+
+        <h3>Lista de Usuários Cadastrados</h3>
+        <ul id="userList"></ul>
+
+        <button type="button" id="clearAll">Excluir Todos</button>
+
+        <label for="search">Pesquisar:</label>
+        <input type="text" id="search" placeholder="Digite para pesquisar...">
+    </main>
+
+    <footer>
+        <p>© 2024 Portal dos Oceanos</p>
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>
