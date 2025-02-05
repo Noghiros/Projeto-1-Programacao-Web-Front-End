@@ -39,6 +39,8 @@ Abaixo está a organização dos arquivos no repositório:
 ├── index.html           # Página inicial
 ├── login.html           # Página de login
 ├── cadastro.html        # Página de cadastro
+├── admin.html           # Página do admin
+├── admin.js             # Local Storage da página do admin
 ├── styles.css           # Arquivo de estilos principal
 ├── home.css             # Estilos específicos para a página inicial
 ├── imgs/                # Pasta de imagens
