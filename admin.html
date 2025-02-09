@@ -6,6 +6,7 @@
     <title>Admin - Portal dos Oceanos</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <header>
@@ -21,25 +22,36 @@
     </header>
 
     <main>
-        <h2>Cadastro de Usuários</h2>
-        <form id="userForm">
-            <label for="username">Nome do Usuário:</label>
-            <input type="text" id="username" name="username" required>
+        <div class="admin">
+            <h2>Cadastro de Usuários</h2>
+            <form id="userForm">
+                <div class="container-input">
+                    <label for="username">Nome do Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <button type="submit">Cadastrar</button>
-            <button type="button" id="clearFields">Limpar Campos</button>
-        </form>
-
-        <h3>Lista de Usuários Cadastrados</h3>
-        <ul id="userList"></ul>
-
-        <button type="button" id="clearAll">Excluir Todos</button>
-
-        <label for="search">Pesquisar:</label>
-        <input type="text" id="search" placeholder="Digite para pesquisar...">
+                <div class="container-input">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="clearFields">Limpar Campos</button>
+            </form>
+        </div>
+        
+        <div class="admin-list">
+            <h3>Lista de Usuários Cadastrados</h3>
+            <ul id="userList"></ul>
+            <button type="button" id="clearAll">Excluir Todos</button>
+        </div>
+        
+        
+        <div class="admin-search">
+            <label for="search">Pesquisar:</label>
+            <input type="text" id="search" placeholder="Digite para pesquisar um usuário">
+        </div>
+        
     </main>
 
     <footer>

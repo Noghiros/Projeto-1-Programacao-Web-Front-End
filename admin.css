@@ -1,0 +1,81 @@
+
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin {
+    max-width: 700px;
+}
+
+.container-input {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #023e8a;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+.admin-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.admin-search {
+    margin: 20px 0px 20px 0px;
+}
